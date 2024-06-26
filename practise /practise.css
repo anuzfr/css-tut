@@ -1,0 +1,93 @@
+/* * {                        
+    margin: 0;
+} */
+/* this selector ( * { }  ) selects the whole web page */
+
+
+
+/* html { 
+    background: url(https://images.pexels.com/photos/10771000/pexels-photo-10771000.jpeg?auto=compress&cs=tinysrgb&w=600) no-repeat center center fixed;
+    background-size:cover;
+    
+} */
+
+
+/* body {                                     
+    background-image: url(https://images.pexels.com/photos/10771000/pexels-photo-10771000.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+} */
+ 
+/* => body and html selector both target the body of web page */ 
+
+/* body {
+    background-color: #accaca;
+} */
+
+
+/* h1 {
+    background-color:#62dc5c;
+    color:#000000;
+    text-align: center;
+    padding: 10px;
+    
+    text-decoration: underline;
+    border: solid 2px #000000
+
+} */
+/* span{ 
+    font-size: 50px;
+    background-color:#62dc5c;
+    color:#000000;              
+    display:block                         
+} */
+
+/* span take small area of background so it is in-line element  
+but we can make in-line element in block element by keyword display: block;*/
+
+/* p{background-color:#62dc5c;
+  color:#000000;  
+  display: inline;                  
+} */
+/* <p> paragraph take whole line area of background so it is block element 
+but we can make block element in in-line element by keyword display: in-line;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #414141;
+}
+h1{
+    background-color: #1580f3;
+}
+.bg-orange {
+    background-color: orange;
+}
+ 
+#bg-green {
+    background-color: green;
+}
+a[target="_blank"]{
+    background-color: #f22222;
+    padding: 3px;
+}
+h1,h2,h3{
+    background-color: #19875e;
+}
+ul li /*if we space and select child it select all the child in that parent*/
+{
+    background-color: cadetblue;
+}
+
+header>a /* this arrow slect only child not more than that*/
+{
+    background-color: peachpuff;
+}
+
+img + p /*it select sibling which is first on its way */
+{
+    background-color: lavender;
+}
